@@ -1,0 +1,9 @@
+break,series,method,coverage,winkler,n
+weekly_expiry_cut,^NSEBANK,split_conformal_fixed,1.0,0.26631334763754794,215
+weekly_expiry_cut,^NSEI,split_conformal_fixed,1.0,0.24024970421774866,216
+upfront_premium_spread_benefit,^NSEBANK,split_conformal_fixed,0.7560975609756098,0.19468064091566012,164
+upfront_premium_spread_benefit,^NSEI,split_conformal_fixed,0.6484848484848484,0.2680812988373098,165
+intraday_position_monitoring,^NSEBANK,split_conformal_fixed,0.8412698412698413,0.1400303086527083,126
+intraday_position_monitoring,^NSEI,split_conformal_fixed,0.7698412698412699,0.18032133099430286,126
+nifty_weekly_expiry_tue,^NSEBANK,split_conformal_fixed,1.0,0.17102031647232288,23
+nifty_weekly_expiry_tue,^NSEI,split_conformal_fixed,1.0,0.16538471028907448,23

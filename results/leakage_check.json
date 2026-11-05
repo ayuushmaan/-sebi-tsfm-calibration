@@ -1,0 +1,8 @@
+{
+  "checks": [
+    {"name": "no_future_in_window", "status": "pass"},
+    {"name": "pre_only_std_for_conformal", "status": "pass"},
+    {"name": "placebo_fake_break", "status": "pass", "cov": 1.0},
+    {"name": "controls_separate", "status": "pass"}
+  ]
+}
