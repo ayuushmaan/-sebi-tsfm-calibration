@@ -1,0 +1,17 @@
+break,series,method,sizing_err,shortfall,n
+intraday_position_monitoring,^NSEBANK,pooled_rulekeyed,0.009656248929447029,0.0,126
+intraday_position_monitoring,^NSEBANK,postonly,0.005748690918081866,0.0,126
+intraday_position_monitoring,^NSEI,pooled_rulekeyed,0.007504868778413741,0.0,126
+intraday_position_monitoring,^NSEI,postonly,0.007270753888893233,0.0,126
+nifty_weekly_expiry_tue,^NSEBANK,pooled_rulekeyed,0.005857634077315647,0.0,23
+nifty_weekly_expiry_tue,^NSEBANK,postonly,0.006444199523931246,0.0,23
+nifty_weekly_expiry_tue,^NSEI,pooled_rulekeyed,0.0042693882760548646,0.0,23
+nifty_weekly_expiry_tue,^NSEI,postonly,0.0049691021793667215,0.0,23
+upfront_premium_spread_benefit,^NSEBANK,pooled_rulekeyed,0.014805930658651434,0.0004422035314890074,164
+upfront_premium_spread_benefit,^NSEBANK,postonly,0.006958443589605398,0.0,164
+upfront_premium_spread_benefit,^NSEI,pooled_rulekeyed,0.014271892693346916,0.0024548977792863244,165
+upfront_premium_spread_benefit,^NSEI,postonly,0.007725192969666633,0.0,165
+weekly_expiry_cut,^NSEBANK,pooled_rulekeyed,0.0190947878226832,0.0012698637861010245,215
+weekly_expiry_cut,^NSEBANK,postonly,0.008505819120085656,0.0,215
+weekly_expiry_cut,^NSEI,pooled_rulekeyed,0.018873889927301685,0.0045982916798818,216
+weekly_expiry_cut,^NSEI,postonly,0.007701875688260553,0.0,216
