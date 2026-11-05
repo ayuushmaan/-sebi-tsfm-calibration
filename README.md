@@ -1,14 +1,25 @@
-# Do Foundation Models Notice When the Rules Change?
+# Rule-Change Calibration (SEBI F&O TSFMs)
 
-Calibration of TSFMs/TFMs across SEBI's F&O reforms. This project studies how rule changes affect probabilistic forecasts for realized volatility and whether rule-keyed retrieval restores calibration under short post-break history.
+Calibration of TSFMs/TFMs across SEBI F&O reforms. Studies how rule changes affect probabilistic forecasts for realized volatility and whether rule-keyed retrieval helps under short post-break history.
 
-## Structure
-- code/ - Source code (models, baselines, retrieval, evaluation)
-- esults/ - All experiment outputs and consolidated tables
-- igures/ - Event studies and plots
-- docs/ - Documentation and summary
-- data/ - Data artifacts
-- paper/ - Paper files (to be written)
+## Repository layout
+- code/src/ — Core library (data, breaks, baselines, retrieval, evaluation)
+- code/app/ — Streamlit dashboard
+- code/scripts/ — Utility scripts
+- code/configs/ — Experiment configs
+- esults/tables/ — Main experiment outputs (CSV)
+- esults/checks/ — Leakage/sanity checks
+- igures/event_study/ — Event-study plots
+- docs/results/ — Consolidated results summary
+- docs/paper_notes/ — Notes/materials
+- data/ — Data (raw/processed/external placeholders)
+- experiments/archive/ — Archived scripts/details
+- rtifacts/raw_sync/ — Raw sync artifacts (ignored)
+- paper/ — Paper draft workspace
 
-## Key Results
-See docs/RESULTS.md and esults/master_results.csv, esults/days_since_break_clean.csv.
+## Key artifacts
+- esults/tables/days_since_break_width.csv — Coverage/Winkler/width by days-since-break (core)
+- esults/tables/master_results.csv — Overall method comparison
+- esults/tables/econ_utility_summary.csv — Sizing/shortfall proxy
+- esults/tables/paper_table_index.csv — Index of paper tables
+- docs/results/RESULTS.md — Summary

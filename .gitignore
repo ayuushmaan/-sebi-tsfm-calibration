@@ -1,14 +1,6 @@
 __pycache__/
 *.pyc
-*.pyo
-*.egg-info/
-dist/
-build/
-data/*
-!data/.gitkeep
-experiments/*
-!experiments/.gitkeep
-wandb/
 .env
-*.ckpt
-
+.DS_Store
+artifacts/raw_sync/
+experiments/archive/econ_utility_detail.csv
