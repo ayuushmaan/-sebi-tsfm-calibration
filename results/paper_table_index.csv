@@ -1,0 +1,10 @@
+table,path
+master,results/master_results.csv
+econ,results/econ_utility_summary.csv
+baselines,results/baselines_highimpact.csv
+robust_h,results/robustness_horizons.csv
+ablation,results/retrieval_ablation.csv
+placebo,results/placebo_battery.csv
+days_width,results/days_since_break_width.csv
+
+
